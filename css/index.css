@@ -1,0 +1,176 @@
+/* ====================== haeader ==================== */
+.top-nav-bar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.top-nav-bar .top-nav-item {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-nav-bar .top-nav-item li a {
+    display: flex;
+    justify-content: center;                                                                                             
+    align-items: center;
+    height: 64px;
+    width: 80px;
+    transition: 0.3s;
+}
+.top-nav-bar .top-nav-item li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.top-nav-bar .top-nav-item li a i {
+    margin-right: 3px;
+    color: #fff;
+}
+
+.top-nav-bar .top-nav-item li a span {
+    color: #fff;
+}
+
+/* ====================== main ==================== */
+/* bgi */
+.background-img {
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    height: 704px;
+    background-image: url(../images/bgi.jpg);
+}
+
+.solid-color-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;        /* 不阻止鼠标事件传递到下面的元素 */
+    z-index: 999;
+    width: 100%;
+    height: 704px;
+    background-color: rgb(183, 36, 97, 0.5);    
+}
+
+/* page1 */
+.page1 {
+    height: 704px;
+    padding-top: 64px;
+}
+
+/* center-logo */
+.page1 .center-logo {
+    margin-top: 50px;
+    height: 269px;
+}
+
+.page1 .center-logo .logo-border {
+    box-sizing: content-box;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    transition: transform 0.3s, border-width 0.3s;
+}
+.page1 .center-logo .logo-border:hover {
+    transform: scale(1.1);
+    border: 5px solid rgba(73, 200, 255, 0.5);
+    border-radius: 50%;
+}
+
+.page1 .center-logo .logo-border .logo {
+    width: 240px;
+    height: 240px;
+    animation: rotate-logo 10s linear infinite;
+}
+.page1 .center-logo .logo-border .logo:hover {
+    animation-play-state: paused;
+}
+
+
+
+/* logo 旋转动画 */
+@keyframes rotate-logo {
+    from {
+        transform: rotate(0deg);
+    }    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* id 和 slogan */
+.page1 .id-slogan {
+    text-align: center;
+}
+
+.page1 .id-slogan .id {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.page1 .id-slogan .slogan {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* to-next-page */
+.to-next-page {
+    box-sizing: content-box;
+    width: 100px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    background-color: rgb(239, 53, 53);
+}
+
+.to-next-page .next-page-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+/* .to-next-page .next-page-button i {
+    width: 100px;
+} */
+
+/* back2top */
+.back2top {
+    position: fixed;
+    box-sizing: content-box;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    animation: b2t-gradually-appear 1.5s forwards;
+    background-color: rgb(255, 77, 77);
+}
+
+/* b2t 出现动画 */
+@keyframes b2t-gradually-appear {
+    from {
+        bottom: -80px;
+    }
+    to {
+        bottom: 30px;
+    }
+}
+
+.back2top .b2t-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.back2top .b2t-button i {
+    font-size: 2.5rem;
+    color: #8aef58;
+}
+
+/* page2 */
+.page2 {
+    height: 704px;
+}

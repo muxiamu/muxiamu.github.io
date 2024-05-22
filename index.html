@@ -1,92 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- 
+    ...╭ ╯╭ ╯╭ ╯
+    . ╭╩═╮.╔════╗╔════╗╔════╗╔════╗   
+    ╭╯嘟嘟  ~~❏❏❏❏ ╠╣~~❏❏❏╠╣❏❏❏ ╠╣~❏❏❏❏~╟
+    ╰⊙═⊙╯╚⊙═⊙╝╚⊙═⊙╝╚⊙═⊙╝ ╚⊙═⊙╝
+-->
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新闻页面</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .news {
-            margin: 100px auto;
-            width: 360px;
-            height: 200px;
-        }
-
-        .news .hd {
-            height: 34px;
-            background-color: #eee;
-            border: 1px solid #bddee1;
-            border-left: 0;
-        }
-
-        .news .hd a {
-            margin-top: -1px;
-            display: inline-block;
-            border-top: 3px solid #ff8400;
-            border-right: 1px solid #bddee1;
-            width: 48px;
-            height: 34px;
-            background-color: #fff;
-            text-align: center;
-            line-height: 32px;
-            font-size: 14px;
-            color: #333;
-        }
-
-        .news .bd {
-            padding: 5px;
-        }
-
-        .news .bd li {
-            padding-left: 15px;
-            background-image: url("./草方块.png");
-            background-size: 5px;
-            background-repeat: no-repeat;
-            background-position: 0 center;
-        }
-
-        .news .bd li a{
-            padding-left: 20px;
-            background-image: url("./草方块.png");
-            background-size: 12px;
-            background-repeat: no-repeat;
-            background-position: 0 center;
-            font-size: 12px;
-            color: #666;
-            line-height: 24px;
-        }
-
-        .news .bd li a:hover{
-            color: #ff8400;
-        }
-    </style>
+    <title>木下目 | muxiamu</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
 </head>
 <body>
-    <div class="news">
-        <div class="hd"><a href="#">新闻</a></div>
-        <div class="bd">
-            <ul>
-                <li><a href="#">新闻标题</a></li>
-                <li><a href="#">新闻标题</a></li>
-                <li><a href="#">新闻标题</a></li>
-                <li><a href="#">新闻标题</a></li>
-                <li><a href="#">新闻标题</a></li>
-                <li><a href="#">新闻标题</a></li>
-            </ul>
+    <header id="header">
+        <!-- 顶部导航栏 -->
+        <nav class="top-nav-bar">
+                <ul class="top-nav-item">
+                    <li class="about">
+                        <a href="#">
+                            <i class="iconfont icon-icon-test3"></i>
+                            <span>关于</span>
+                        </a>
+                    </li>
+                    <li class="jotting">
+                        <a href="#">
+                            <i class="iconfont icon-icon-test2"></i>
+                            <span>随笔</span>
+                        </a>
+                    </li>
+                    <li class="note">
+                        <a href="#">
+                            <i class="iconfont icon-qianshuxieyi"></i>
+                            <span>笔记</span>
+                        </a>
+                    </li>
+                    <li class="interaction">
+                        <a href="#">
+                            <i class="iconfont icon-icon-test"></i>
+                            <span>互动</span>
+                        </a>
+                    </li>
+                    <li class="search">
+                        <a href="#">
+                            <i class="iconfont icon-icon-test1"></i>
+                            <span>搜索</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="background-img">
+            <div class="solid-color-filter"></div>
         </div>
-    </div>
+        <div class="page1">
+            <div class="center-logo">
+                <div class="logo-border">
+                    <img src="./images/logo.png" alt="LOGO" class="logo">
+                </div>
+            </div>
+            <div class="id-slogan">
+                <h1 class="id">木下目</h1>
+                <span class="slogan">这是一行可以变化的口号</span>
+            </div>
+            <div class="to-next-page">
+                <a href="#page2" class="next-page-button">
+                    <i class="iconfont icon-xiangxiazhanhang"></i>
+                </a>
+            </div>
+        </div>
+        <div class="page2" id="page2"></div>
+        <div class="back2top">
+            <a href="#header" class="b2t-button">
+                <i class="iconfont icon-top-filling"></i>
+            </a>
+        </div>
+    </main>
+    <footer>底部栏位</footer>
 </body>
 </html>
