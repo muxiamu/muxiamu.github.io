@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/09/27/hello-world/</loc>
+    <loc>http://muxiamu.github.io/2024/09/27/page2/</loc>
     
-    <lastmod>2024-09-27T03:00:30.272Z</lastmod>
+    <lastmod>2024-09-27T09:30:03.864Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://muxiamu.github.io/2024/09/27/page3/</loc>
+    
+    <lastmod>2024-09-27T09:30:03.864Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://muxiamu.github.io/1145/01/04/new-page/</loc>
+    
+    <lastmod>1145-01-04T15:54:17.000Z</lastmod>
     
   </url>
   
