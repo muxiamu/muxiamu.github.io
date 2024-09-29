@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://muxiamu.github.io/2024/09/26/post0/</loc>
-    
-    <lastmod>2024-09-29T15:40:44.326Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://muxiamu.github.io/2024/09/27/post1/</loc>
-    
-    <lastmod>2024-09-29T15:40:44.326Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://muxiamu.github.io/links/index.html</loc>
-    
-    <lastmod>2024-09-29T15:40:44.326Z</lastmod>
-    
-  </url>
-  
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://muxiamu.github.io/</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/archives</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/links</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/about</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/2024/09/27/post1</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/categories/%E8%AF%97%E4%B9%A6</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/2024/09/26/post0</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://muxiamu.github.io/categories/%E9%9A%8F%E7%AC%94</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-09-29</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
 </urlset>
