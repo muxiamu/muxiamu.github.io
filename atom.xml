@@ -6,7 +6,7 @@
   <link href="http://muxiamu.github.io/atom.xml" rel="self"/>
   
   <link href="http://muxiamu.github.io/"/>
-  <updated>2024-09-30T06:24:21.632Z</updated>
+  <updated>2024-10-01T08:17:46.573Z</updated>
   <id>http://muxiamu.github.io/</id>
   
   <author>
@@ -17,25 +17,56 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo下载、生成静态文件、blog部署相关</title>
+    <link href="http://muxiamu.github.io/2024/09/29/post2/"/>
+    <id>http://muxiamu.github.io/2024/09/29/post2/</id>
+    <published>2024-09-29T16:00:00.000Z</published>
+    <updated>2024-10-01T08:17:46.573Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo可以用来生成特定模版的网页文件，搭配Github Pages就能将自己的blog部署到username.github.io上。<br>访问Hexo官网，可以查看更多信息。    </p><p>下载Hexo:    </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hexo可以用来生成特定模版的网页文件，搭配Github Pages就能将自己的blog部署到username.github.io上。&lt;br&gt;访问Hexo官网，可以查看更多信息。    &lt;/p&gt;
+&lt;p&gt;下载Hexo:    &lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="blog部署" scheme="http://muxiamu.github.io/categories/blog%E9%83%A8%E7%BD%B2/"/>
+    
+    
+    <category term="Hexo" scheme="http://muxiamu.github.io/tags/Hexo/"/>
+    
+    <category term="blog" scheme="http://muxiamu.github.io/tags/blog/"/>
+    
+    <category term="经验之谈" scheme="http://muxiamu.github.io/tags/%E7%BB%8F%E9%AA%8C%E4%B9%8B%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>随缘记</title>
     <link href="http://muxiamu.github.io/2024/09/27/post1/"/>
     <id>http://muxiamu.github.io/2024/09/27/post1/</id>
     <published>2024-09-27T16:00:00.000Z</published>
-    <updated>2024-09-30T06:24:21.632Z</updated>
+    <updated>2024-10-01T08:17:46.573Z</updated>
     
-    <content type="html"><![CDATA[<style type="text/css">p {    text-align: center;    font: 400 18px/1.5 "宋体",sans-serif;}    .title {    font: bold 30px/1.5 "宋体",sans-serif;}.author {    font:400 14px/1 "宋体",sans-serif;}</style><p class="title">西江月</p><p class="author">[宋] 苏轼</p><p>世事一场大梦，人生几度秋凉？夜来风叶已鸣廊，看取眉头鬓上。</p><p>酒贱常愁客少，月明多被云妨。中秋谁与共孤光，把盏凄凉北望。</p><br><br><p class="title">自遣</p><p class="author">[唐] 罗隐</p><p>得即高歌失即休，多愁多恨亦悠悠。</p><p>今朝有酒今朝醉，明日愁来明日愁。</p><br><br><p class="title">望江南·超然台作</p><p class="author">[宋] 苏轼</p><p>春未老，风细柳斜斜。试上超然台上看，半壕春水一城花。烟雨暗千家。</p><p>寒食后，酒醒却咨嗟。休对故人思故国，且将新火试新茶。诗酒趁年华。</p><br><br>]]></content>
+    <content type="html"><![CDATA[<style type="text/css">.title {    text-align: center;    font: bold 30px/1 "宋体", sans-serif;}.author {    text-align: center;    font:400 14px/1 "宋体", sans-serif;}.poem {    text-align: center;    font: 500 18px/2 "宋体", sans-serif;}</style><p class="title">西江月</p><p class="author">[宋] 苏轼</p><p class="poem">世事一场大梦，人生几度秋凉？夜来风叶已鸣廊，看取眉头鬓上。<br>酒贱常愁客少，月明多被云妨。中秋谁与共孤光，把盏凄凉北望。</p><br><br><p class="title">自遣</p><p class="author">[唐] 罗隐</p><p class="poem">得即高歌失即休，多愁多恨亦悠悠。<br>今朝有酒今朝醉，明日愁来明日愁。</p><br><br><p class="title">望江南·超然台作</p><p class="author">[宋] 苏轼</p><p class="poem">春未老，风细柳斜斜。试上超然台上看，半壕春水一城花。烟雨暗千家。<br>寒食后，酒醒却咨嗟。休对故人思故国，且将新火试新茶。诗酒趁年华。</p><br><br>]]></content>
     
     
       
       
     <summary type="html">&lt;style type=&quot;text/css&quot;&gt;
-p {
-    text-align: center;
-    font: 400 18px/1.5 &quot;宋体&quot;,sans-serif;
-}
-    
 .title {
-    font: bold 30px/1.5 &quot;宋体&quot;,san</summary>
+    text-align: center;
+    font: bold 30px/1 &quot;宋体&quot;, sans-serif;
+}
+
+.author {
+    text-align: center;
+    fo</summary>
       
     
     
@@ -50,21 +81,22 @@ p {
     <link href="http://muxiamu.github.io/2024/09/26/post0/"/>
     <id>http://muxiamu.github.io/2024/09/26/post0/</id>
     <published>2024-09-26T16:00:00.000Z</published>
-    <updated>2024-09-30T06:24:21.632Z</updated>
+    <updated>2024-10-01T08:17:46.573Z</updated>
     
-    <content type="html"><![CDATA[<style type="text/css">p {    text-indent: 2em;    font: 400 18px/1.5 "黑体", sans-serif;}</style><p>折腾了两天，才搞出这个“赛博笔记本”，我没什么科班的能力，只跟着网上教程照猫画虎，到底算是搞成了这个事。之前就有过这个想法，想搭一个博客玩玩，三分钟热度之后就搁置了，这回好好折腾了一波，总算是善始善终了。</p><p>博客用的是 Hexo + Github Pages，再有就是借助Github Action让他能自动发布网页，不错不错。</p>]]></content>
+    <content type="html"><![CDATA[<style type="text/css">.article {    text-indent: 2em;    font: bold 16px/1.5 "黑体", sans-serif;}</style><p class="article">折腾了两天，才搞出这个“赛博笔记本”，我没什么科班的能力，只跟着网上教程照猫画虎，到底算是搞成了这个事。之前就有过这个想法，想搭一个blog玩玩，三分钟热度之后就搁置了，这回好好折腾了一波，总算是善始善终了。</p><br><p class="article">blog页面的静态HTML文件由<a class="article" href="https://hexo.io/zh-cn/">Hexo</a>生成，源码保存在<a class="article" href="https://github.com/">Github</a>的私有仓库，通过Github Actions实现自动提交public文件夹到username.github.io库，在username.github.io这个网站上就可以看到自己的blog了。</p>]]></content>
     
     
       
       
     <summary type="html">&lt;style type=&quot;text/css&quot;&gt;
-p {
+.article {
     text-indent: 2em;
-    font: 400 18px/1.5 &quot;黑体&quot;, sans-serif;
+    font: bold 16px/1.5 &quot;黑体&quot;, sans-serif;
 }
 &lt;/style&gt;
 
-&lt;p&gt;折腾了两天，才搞出这个“赛博笔记本”，我没什么科班的能力，只跟着网上</summary>
+
+&lt;p class=&quot;article&quot;&gt;折腾了两天，才搞出</summary>
       
     
     
