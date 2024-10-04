@@ -6,7 +6,7 @@
   <link href="http://muxiamu.github.io/atom.xml" rel="self"/>
   
   <link href="http://muxiamu.github.io/"/>
-  <updated>2024-10-01T11:20:57.273Z</updated>
+  <updated>2024-10-04T16:40:36.049Z</updated>
   <id>http://muxiamu.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo文件和网页之间的关系</title>
+    <link href="http://muxiamu.github.io/2024/10/03/post3/"/>
+    <id>http://muxiamu.github.io/2024/10/03/post3/</id>
+    <published>2024-10-03T16:00:00.000Z</published>
+    <updated>2024-10-04T16:40:36.049Z</updated>
+    
+    <content type="html"><![CDATA[<style type="text/css">.article {    text-indent: 2em;    font: 400 18px/1.5 "黑体", sans-serif;}.en-text {    background-color: #e9edf0;    color: #2c3437;    padding: 4px;    border-radius: 6px;    font-size: 16px;    font-family: "Consolas";}.code {    background-color: #2c3437;    color: #e9edf0;    padding-left: 36px;    border-radius: 6px;    font-size: 16px;    font-family: "Consolas";}</style><p class="article">无论如何，Hexo生成的每个网页的文件名都是"index.html"，换句话说网页的文件名必须得是"index.html"才能在浏览器中正确显示。</p><br><p class="article">可编辑的博客文章存放在"source"文件夹下，格式都是".md"，存放这些markdown文件的文件夹的名字为方便我统称为"folder_name"，这些markdown文件的文件名为方便我统称为"file_name"，在文件里还有一个可以编辑"title"参数。</p><br><p class="article">执行"hexo g"命令，会生成一个"public"文件夹，这便是网站的根目录了，以上对应关系可用下面的图表示。特别的，Hexo预设的三种文章格式略有不同。</p><br><img src="https://github.com/muxiamu/imgs/blob/main/blog/post3/makabaka.png?raw=false" alt="makabaka" loading="lazy">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;style type=&quot;text/css&quot;&gt;
+.article {
+    text-indent: 2em;
+    font: 400 18px/1.5 &quot;黑体&quot;, sans-serif;
+}
+
+.en-text {
+    background-color: #e9edf</summary>
+      
+    
+    
+    
+    <category term="笔记" scheme="http://muxiamu.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Hexo" scheme="http://muxiamu.github.io/tags/Hexo/"/>
+    
+    <category term="经验之谈" scheme="http://muxiamu.github.io/tags/%E7%BB%8F%E9%AA%8C%E4%B9%8B%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo下载、生成静态文件、blog部署相关</title>
     <link href="http://muxiamu.github.io/2024/09/29/post2/"/>
     <id>http://muxiamu.github.io/2024/09/29/post2/</id>
     <published>2024-09-29T16:00:00.000Z</published>
-    <updated>2024-10-01T11:20:57.273Z</updated>
+    <updated>2024-10-04T16:40:36.049Z</updated>
     
     <content type="html"><![CDATA[<style type="text/css">.article {    text-indent: 2em;    font: 400 18px/1.5 "黑体", sans-serif;}.en-text {    background-color: #e9edf0;    color: #2c3437;    padding: 4px;    border-radius: 6px;    font-size: 16px;    font-family: "Consolas";}.code {    background-color: #2c3437;    color: #e9edf0;    padding-left: 36px;    border-radius: 6px;    font-size: 16px;    font-family: "Consolas";}</style><p class="article">安装Hexo没什么好说的，按照<a href="https://hexo.io/zh-cn/docs/">文档</a>一步步来，把命令复制/粘贴到终端执行就行了。<br></p>        <p class="article">初始化以后，文件夹里有一个名为<span class="en-text">package.json</span>的文件，在执行<span class="en-text">npm install</span>时会自动下载里面的依赖项。但是某些依赖项可能已经过时需要更新，可以执行下面的命令更新依赖并写入package.json。</p><div class="code">npm install -g npm-check-updates<br>ncu -u<br>npm update<br></div><br><br><p class="article"><span class="en-text">hexo s</span>启动服务器后，修改配置、编辑文章之类的操作通过刷新就可以实时反映在网页上，不需要重新启动服务器。</p><p class="article"><span class="en-text">hexo g</span>生成的内容主要是<span class="en-text">public</span>文件夹，<span class="en-text">hexo cl</span>会删除掉这个文件夹。这个文件夹的内容主要是静态网页的源码，如果在本地调试网页，只执行<span class="en-text">hexo s</span>就行。</p><br><br>]]></content>
     
@@ -54,7 +87,7 @@
     <link href="http://muxiamu.github.io/2024/09/27/post1/"/>
     <id>http://muxiamu.github.io/2024/09/27/post1/</id>
     <published>2024-09-27T16:00:00.000Z</published>
-    <updated>2024-10-01T11:20:57.273Z</updated>
+    <updated>2024-10-04T16:40:36.049Z</updated>
     
     <content type="html"><![CDATA[<style type="text/css">.title {    text-align: center;    font: bold 30px/1 "宋体", sans-serif;}.author {    text-align: center;    font:400 14px/1 "宋体", sans-serif;}.poem {    text-align: center;    font: 500 18px/2 "宋体", sans-serif;}</style><p class="title">西江月</p><p class="author">[宋] 苏轼</p><p class="poem">世事一场大梦，人生几度秋凉？夜来风叶已鸣廊，看取眉头鬓上。<br>酒贱常愁客少，月明多被云妨。中秋谁与共孤光，把盏凄凉北望。</p><br><br><p class="title">自遣</p><p class="author">[唐] 罗隐</p><p class="poem">得即高歌失即休，多愁多恨亦悠悠。<br>今朝有酒今朝醉，明日愁来明日愁。</p><br><br><p class="title">望江南·超然台作</p><p class="author">[宋] 苏轼</p><p class="poem">春未老，风细柳斜斜。试上超然台上看，半壕春水一城花。烟雨暗千家。<br>寒食后，酒醒却咨嗟。休对故人思故国，且将新火试新茶。诗酒趁年华。</p><br><br>]]></content>
     
@@ -84,7 +117,7 @@
     <link href="http://muxiamu.github.io/2024/09/26/post0/"/>
     <id>http://muxiamu.github.io/2024/09/26/post0/</id>
     <published>2024-09-26T16:00:00.000Z</published>
-    <updated>2024-10-01T11:20:57.273Z</updated>
+    <updated>2024-10-04T16:40:36.049Z</updated>
     
     <content type="html"><![CDATA[<style type="text/css">.article {    text-indent: 2em;    font: 400 18px/1.5 "黑体", sans-serif;}</style><p class="article">折腾了两天，才搞出这个“赛博笔记本”，我没什么科班的能力，只跟着网上教程照猫画虎，到底算是搞成了这个事。之前就有过这个想法，想搭一个blog玩玩，三分钟热度之后就搁置了，这回好好折腾了一波，总算是善始善终了。</p><br><p class="article">blog页面的静态HTML文件由<a class="article" href="https://hexo.io/zh-cn/">Hexo</a>生成，源码保存在<a class="article" href="https://github.com/">Github</a>的私有仓库，通过Github Actions实现自动提交public文件夹到username.github.io库，在username.github.io这个网站上就可以看到自己的blog了。</p>]]></content>
     

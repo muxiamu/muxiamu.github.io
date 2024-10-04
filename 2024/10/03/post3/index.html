@@ -28,7 +28,7 @@
 
   
 
-  <title>Hexo下载、生成静态文件、blog部署相关 | 木下目</title>
+  <title>Hexo文件和网页之间的关系 | 木下目</title>
 
   
 
@@ -54,7 +54,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url('https://i.bobopic.com/small/122857812.jpg');"></div>
+    <div class="post-image" style="background-image: url('https://i.bobopic.com/small/121032719.jpg');"></div>
   
 
   <!-- navbar -->
@@ -113,11 +113,11 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">Hexo下载、生成静态文件、blog部署相关</h1>
+          <h1 class="title-wrap">Hexo文件和网页之间的关系</h1>
           <h2 class="title-sub-wrap">
             <strong>MuxiaMu</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2024-09-29T16:00:00.000Z" itemprop="datePublished">2024-09-30</time>
+            <time  class="article-date" datetime="2024-10-03T16:00:00.000Z" itemprop="datePublished">2024-10-04</time>
           </h2>
           
             <h2 class="last-time">
@@ -128,7 +128,7 @@
           
           <ul class="wrap-list dark">
   
-    <li><a href="/categories/blog%E9%83%A8%E7%BD%B2/">📒 blog部署</a></li>
+    <li><a href="/categories/%E7%AC%94%E8%AE%B0/">📒 笔记</a></li>
     
 </ul>
           <ul class="wrap-list dark">
@@ -187,62 +187,34 @@
 
 
 <p class="article">
-安装Hexo没什么好说的，按照<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">文档</a>一步步来，把命令复制/粘贴到终端执行就行了。<br>
-</p>    
-
-    
-<p class="article">
-初始化以后，文件夹里有一个名为<span class="en-text">package.json</span>的文件，在执行<span class="en-text">npm install</span>时会自动下载里面的依赖项。但是某些依赖项可能已经过时需要更新，可以执行下面的命令更新依赖并写入package.json。
-</p>
-<div class="code">
-npm install -g npm-check-updates<br>
-ncu -u<br>
-npm update<br>
-</div><br><br>
-
-
+无论如何，Hexo生成的每个网页的文件名都是"index.html"，换句话说网页的文件名必须得是"index.html"才能在浏览器中正确显示。
+</p><br>
 
 <p class="article">
-<span class="en-text">hexo s</span>启动服务器后，修改配置、编辑文章之类的操作通过刷新就可以实时反映在网页上，不需要重新启动服务器。
-</p>
+可编辑的博客文章存放在"source"文件夹下，格式都是".md"，存放这些markdown文件的文件夹的名字为方便我统称为"folder_name"，这些markdown文件的文件名为方便我统称为"file_name"，在文件里还有一个可以编辑"title"参数。
+</p><br>
+
 <p class="article">
-<span class="en-text">hexo g</span>生成的内容主要是<span class="en-text">public</span>文件夹，<span class="en-text">hexo cl</span>会删除掉这个文件夹。这个文件夹的内容主要是静态网页的源码，如果在本地调试网页，只执行<span class="en-text">hexo s</span>就行。
-</p><br><br>
+执行"hexo g"命令，会生成一个"public"文件夹，这便是网站的根目录了，以上对应关系可用下面的图表示。特别的，Hexo预设的三种文章格式略有不同。
+</p><br>
 
-
-
+<img src="https://github.com/muxiamu/imgs/blob/main/blog/post3/makabaka.png?raw=false" alt="makabaka" loading="lazy">
       </section>
 
       
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-      <div class="card-cover" background-image-lazy data-img="https://i.bobopic.com/small/121032719.jpg"></div>
-    
-    <div class="card-text">
-      
-        <a href="/2024/10/03/post3/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">Hexo文件和网页之间的关系</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
-      <div class="card-cover" background-image-lazy data-img="https://i.bobopic.com/small/122866395.jpg"></div>
+      <div class="card-cover" background-image-lazy data-img="https://i.bobopic.com/small/122857812.jpg"></div>
     
     <div class="card-text">
       
-        <a href="/2024/09/27/post1/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">随缘记</h2>
+        <a href="/2024/09/29/post2/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">Hexo下载、生成静态文件、blog部署相关</h2>
         </a>
       
       <div class="card-text--row">Older</div>
