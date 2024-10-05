@@ -305,7 +305,8 @@ dfn {
   box-shadow: inset var(--soft-shadow) var(--soft-shadow) calc(var(--soft-shadow) * 2) var(--theme-bg-shadow), inset calc(-1 * var(--soft-shadow)) calc(-1 * var(--soft-shadow)) calc(var(--soft-shadow) * 2) var(--theme-bg-high);
 }
 .root-container {
-  background-color: var(--theme-bg-primary);
+/* background-color: var(--theme-bg-primary) */
+  background-color: #eee;
 }
 .body-container {
   position: relative;
